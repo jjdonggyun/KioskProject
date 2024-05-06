@@ -1,0 +1,76 @@
+@charset "UTF-8";
+#wrap {
+   width: 90%;
+   margin: 0 auto;
+}
+header {
+   background-color: pink;
+}
+.header_top img {
+   width: 30px;
+   height: 30px;
+}
+.header_top h1 {
+   line-height: 30px;
+   font-weight: bold;
+   font-size: 18px;
+   color: white;
+}
+.header_top {
+   display: flex;
+   justify-content: space-around;
+}
+.header_nav nav ul {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+.header_nav nav ul li {
+   text-align: center;
+   width: 30%;
+   height: 50px;
+   line-height: 50px;
+   background-color: red;
+}
+/* 상품추가 모달 스타일 */
+.modal-title {
+   font-size: 28px;
+   font-weight: bolder;
+   text-align: center;
+   color: red;
+}
+.menu_plus_header>h3{
+   font-size: 24px;
+   font-weight: bold;
+   text-align: center;
+   color: red;
+}
+.save-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.header_nav nav ul li:first-child {
+	background-color: #ccc;
+}
